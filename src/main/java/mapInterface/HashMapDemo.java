@@ -39,7 +39,7 @@ public class HashMapDemo {
 		
 		
 		
-		for(Map.Entry<String, String> es :hm.entrySet()){
+		for(Entry<String, String> es :hm.entrySet()){
 			
 		System.out.println(es.getKey()+"  "+es.getValue());
 		//name  sagar
