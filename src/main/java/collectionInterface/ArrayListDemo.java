@@ -118,6 +118,21 @@ public class ArrayListDemo {
 
 		System.out.println(al.remove("sagar")); // true if sagar was present
 		System.out.println(al.remove("d")); // false
+		
+		al.add("neha");
+		al.add("swini");
+		System.out.println(al);//[first, Sumit, neha, swini]
+		System.out.println(al.subList(0,3)); // [first, Sumit, neha]
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
