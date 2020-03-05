@@ -19,8 +19,6 @@ public class ListIteratorDemo {
          }
 		
 		System.err.println("________________________");
-        
-		
 		//Printing element based on condition
 		Iterator il2 = al.iterator();
 		while (il2.hasNext()) {
