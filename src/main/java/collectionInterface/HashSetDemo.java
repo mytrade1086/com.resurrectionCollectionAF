@@ -18,22 +18,28 @@ public class HashSetDemo {
 
 		HashSet<String> hs = new HashSet<String>();
 
-		hs.add("Newton");
-		hs.add("Bose");
-        hs.add("Newton"); // true
+		hs.add("Newton");//true
+		hs.add("Bose");//true
+        hs.add("Newton"); // false
 		System.out.println(hs.add("Newton")); // false "If we try to add existing item in Set
 		hs.add("Tesla");
-		
-		
-		
 
-		Iterator<String> hsit = hs.iterator();
-		while (hsit.hasNext()) {
-			String s = hsit.next();
-			System.out.println(s);
-			
-			
+		//#1
+		Iterator<String> si=hs.iterator();	
+		while(si.hasNext()) {
+			System.out.println(si.next());
 		}
+//		false
+//		Bose
+//		Newton
+//		Tesla
+		
+		
+		//2 
+		hs.forEach((a)->System.out.println(a));
+//		Bose
+//		Newton
+//		Tesla
 
 	}
 

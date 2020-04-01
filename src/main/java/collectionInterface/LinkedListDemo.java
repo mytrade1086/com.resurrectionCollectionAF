@@ -26,7 +26,6 @@ public class LinkedListDemo {
 		
 		
 		System.out.println(ll.removeFirst()); //11
-		
 		System.out.println(ll.removeLast());//LL
 		
 		

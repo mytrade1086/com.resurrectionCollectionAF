@@ -21,7 +21,7 @@ public class LinkedHashSetDemo {
 		lsh.add("Aabha");
 		lsh.add("Aastha");
 		
-		lsh.add("Aastha");
+		lsh.add("Aastha"); //false
 		
 		
 		System.out.println(lsh.add("Aastha"));

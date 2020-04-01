@@ -14,7 +14,6 @@ public class SortedSetDemo {
 		 */
 		
 		SortedSet<Integer> ss=new TreeSet<Integer>();
-		
 		HashSet<Integer> hs=new HashSet<Integer>();
 		
 		
